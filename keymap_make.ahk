@@ -40,9 +40,9 @@ Send, {WheelDown}
 Return
 ;進むボタン
 s::
-Send, {XButton1}
+Send, {XButton2}
 Return
 ;戻るボタン
 a::
-Send, {XButton2}
+Send, {XButton1}
 Return
