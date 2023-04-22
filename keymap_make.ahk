@@ -1,4 +1,4 @@
-;タスクバー1を起動
+;GoogleChromeを起動
 z::
 Run, "C:\Program Files\Google\Chrome\Application\chrome.exe"
 Return
