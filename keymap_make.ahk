@@ -30,8 +30,19 @@ Return
 *sc027::
 Send, {right}
 Return
-b::left ;タスクバー5を起動
-n::left ;タスクバー6を起動
-m::left ;タスクバー7を起動ch
-,::left ;タスクバー8を起動
-.::left ;タスクバー9を起動
+;ホイール上回転
+f::
+Send, {WheelUp}
+Return
+;ホイール下回転
+d::
+Send, {WheelDown}
+Return
+;進むボタン
+s::
+Send, {XButton1}
+Return
+;戻るボタン
+a::
+Send, {XButton2}
+Return
