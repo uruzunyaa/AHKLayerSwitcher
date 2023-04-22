@@ -2,11 +2,34 @@
 z::
 Run, "C:\Program Files\Google\Chrome\Application\chrome.exe"
 Return
+;Twitterを起動
 x::
-Send, left
-Return ;タスクバー2を起動
-c::left ;タスクバー3を起動
-v::left ;タスクバー4を起動
+Run, "C:\Program Files\Google\Chrome\Application\chrome.exe""https://twitter.com"
+Return
+;Disordを起動
+c::
+Run, "C:\Users\kazus\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord"
+Return
+;VSCodeを起動
+v::
+Run, "C:\Users\kazus\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Visual Studio Code\Visual Studio Code"
+Return
+;左へ移動
+j::
+Send, {left}
+Return
+;下へ移動
+k::
+Send, {down}
+Return
+;上へ移動
+l::
+Send, {up}
+Return
+;右へ移動(;キー)
+*sc027::
+Send, {right}
+Return
 b::left ;タスクバー5を起動
 n::left ;タスクバー6を起動
 m::left ;タスクバー7を起動ch
