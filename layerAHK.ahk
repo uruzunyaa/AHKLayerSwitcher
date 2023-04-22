@@ -11,10 +11,10 @@ Return
 
 LayerZero_a:
 MsgBox, % 0
-Send ,{a}
+Send ,{php}
 Return
 LayerZero_s:
-Send ,{s}
+Send ,{js}
 Return
 
 LayerOne_a:
