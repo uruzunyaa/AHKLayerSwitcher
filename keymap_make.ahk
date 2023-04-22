@@ -46,3 +46,11 @@ Return
 a::
 Send, {XButton1}
 Return
+;コピー
+g::
+Send, ^c
+Return
+;ペースト
+h::
+Send, ^v
+Return
