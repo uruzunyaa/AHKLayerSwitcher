@@ -1,3 +1,5 @@
+;キーの順番は、左上Qから順に記述してあります。
+
 LayerOne_q:
 Return
 LayerOne_w:
