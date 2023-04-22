@@ -14,29 +14,29 @@ If layerState < 1
     Hotkey, *sc017, LayerOne_i
     Hotkey, *sc018, LayerOne_o
     Hotkey, *sc019, LayerOne_p
-    Hotkey, *sc01e, LayerOne_sc01a
-    Hotkey, *sc01f, LayerOne_sc01b
-    Hotkey, *sc02e, LayerOne_a
-    Hotkey, *sc01d, LayerOne_s
-    Hotkey, *sc01e, LayerOne_d
-    Hotkey, *sc01f, LayerOne_f
-    Hotkey, *sc01f, LayerOne_g
-    Hotkey, *sc01e, LayerOne_h
-    Hotkey, *sc01f, LayerOne_j
-    Hotkey, *sc01e, LayerOne_k
-    Hotkey, *sc01f, LayerOne_l
-    Hotkey, *sc01e, LayerOne_sc027
-    Hotkey, *sc01f, LayerOne_sc028
-    Hotkey, *sc019, LayerOne_z
-    Hotkey, *sc01e, LayerOne_x
-    Hotkey, *sc01f, LayerOne_c
-    Hotkey, *sc01e, LayerOne_v
-    Hotkey, *sc01f, LayerOne_b
-    Hotkey, *sc01e, LayerOne_n
-    Hotkey, *sc01f, LayerOne_m
-    Hotkey, *sc01e, LayerOne_sc033
-    Hotkey, *sc01f, LayerOne_sc034
-    Hotkey, *sc01e, LayerOne_sc035
+    Hotkey, *sc01a, LayerOne_sc01a
+    Hotkey, *sc01b, LayerOne_sc01b
+    Hotkey, *sc01e, LayerOne_a
+    Hotkey, *sc01f, LayerOne_s
+    Hotkey, *sc020, LayerOne_d
+    Hotkey, *sc021, LayerOne_f
+    Hotkey, *sc022, LayerOne_g
+    Hotkey, *sc023, LayerOne_h
+    Hotkey, *sc024, LayerOne_j
+    Hotkey, *sc025, LayerOne_k
+    Hotkey, *sc026, LayerOne_l
+    Hotkey, *sc027, LayerOne_sc027
+    Hotkey, *sc028, LayerOne_sc028
+    Hotkey, *sc02C, LayerOne_z
+    Hotkey, *sc02D, LayerOne_x
+    Hotkey, *sc02E, LayerOne_c
+    Hotkey, *sc02F, LayerOne_v
+    Hotkey, *sc030, LayerOne_b
+    Hotkey, *sc031, LayerOne_n
+    Hotkey, *sc032, LayerOne_m
+    Hotkey, *sc033, LayerOne_sc033
+    Hotkey, *sc034, LayerOne_sc034
+    Hotkey, *sc035, LayerOne_sc035
     layerState = 1
 }
 Else
