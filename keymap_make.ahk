@@ -54,3 +54,19 @@ Return
 h::
 Send, ^v
 Return
+;左選択
++j::
+Send, {+left}
+Return
+;右選択
++k::
+Send, {+down}
+Return
+;上選択
++l::
+Send, {+up}
+Return
+;下選択(;キー)
++*sc027::
+Send, {+right}
+Return
