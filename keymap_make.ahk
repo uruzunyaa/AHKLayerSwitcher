@@ -58,7 +58,6 @@ Return
 +j::
 Send, +{left}
 Return
-
 ;右選択
 +k::
 Send, +{down}

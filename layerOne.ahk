@@ -57,6 +57,26 @@ LayerOne_sc027:
 Send, {right}
 Return
 
+;左選択(Shift)
++j::
+Send, +{left}
+Return
+
+;右選択(Shift)
++k::
+Send, +{down}
+Return
+
+;上選択(Shift)
++l::
+Send, +{up}
+Return
+
+;下選択(;キー)(Shift)
++*sc027::
+Send, +{right}
+Return   
+
 LayerOne_sc028:
 Return
 
