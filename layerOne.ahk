@@ -111,6 +111,7 @@ LayerOne_+*sc027:
 Return   
 
 LayerOne_sc028:
+    Send, {PrintScreen}
 Return
 
 LayerOne_z:
