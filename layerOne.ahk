@@ -37,6 +37,9 @@ LayerOne_sc01a:
     Send #{VOLUME_DOWN}
 Return
 
+LayerOne_sc01b:
+    Send #{VOLUME_Up}
+Return
 
 
 ;戻るボタン
