@@ -23,7 +23,8 @@ cursor_right:
 ; --- mouse cursor jump ---
 
 junp_to_top_left:
-    WinGetActiveStats, Title, Width, Height, X, YMouseMove, Round(Width*EDGE_RATE), Round(Height*EDGE_RATE), MOUSE_DELAY
+    WinGetActiveStats, Title, Width, Height, X, Y
+    MouseMove, Round(Width*EDGE_RATE), Round(Height*EDGE_RATE), MOUSE_DELAY
     return
 
 junp_to_top_centr:
