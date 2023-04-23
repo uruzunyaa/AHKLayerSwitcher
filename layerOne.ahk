@@ -148,6 +148,6 @@ LayerOne_sc035:
     Send, !{F4}
 Return
 ;ウィンドウ選択
-LayerOne_+sc036:
+LayerOne_sc036:
     Send, !{Tab}
 Return
