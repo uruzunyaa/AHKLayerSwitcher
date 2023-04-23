@@ -96,7 +96,7 @@ LayerOne_+j:
 Return
 
 ;右選択(Shift)
-LayerOne_+k::
+LayerOne_+k:
     Send, +{down}
 Return
 
@@ -143,7 +143,11 @@ LayerOne_sc033:
 Return
 LayerOne_sc034:
 Return
-;画面閉じる（未実装）
+;画面閉じる
 LayerOne_sc035:
-Send, !{F4}
+    Send, !{F4}
+Return
+;ウィンドウ選択
+LayerOne_+sc036:
+    Send, !{Tab}
 Return
