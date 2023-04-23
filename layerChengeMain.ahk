@@ -193,15 +193,15 @@ Space Up::
     Hotkey, o, right_click, Off
 
     ; cursor jump
-    Hotkey, w, junp_to_top_left
-    Hotkey, e, junp_to_top_centr
-    Hotkey, r, junp_to_top_right
-    Hotkey, s, junp_to_middle_left
-    Hotkey, d, junp_to_middle_centr
-    Hotkey, f, junp_to_middle_right
-    Hotkey, x, junp_to_bottom_left
-    Hotkey, c, junp_to_bottom_centr
-    Hotkey, v, junp_to_bottom_right
+    Hotkey, w, junp_to_top_left, Off
+    Hotkey, e, junp_to_top_centr, Off
+    Hotkey, r, junp_to_top_right, Off
+    Hotkey, s, junp_to_middle_left, Off
+    Hotkey, d, junp_to_middle_centr, Off
+    Hotkey, f, junp_to_middle_right, Off
+    Hotkey, x, junp_to_bottom_left, Off
+    Hotkey, c, junp_to_bottom_centr, Off
+    Hotkey, v, junp_to_bottom_right, Off
 
     return
 }
