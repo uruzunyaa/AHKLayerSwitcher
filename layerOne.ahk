@@ -115,7 +115,7 @@ LayerOne_sc028:
 Return
 
 LayerOne_sc029:
-Send, !+{s}
+    Send, #+{s}
 
 LayerOne_z:
 ;GoogleChromeを起動
