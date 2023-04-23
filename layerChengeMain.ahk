@@ -28,6 +28,10 @@ If layerState < 1
     Hotkey, *sc025, LayerOne_k
     Hotkey, *sc026, LayerOne_l
     Hotkey, *sc027, LayerOne_sc027
+    Hotkey, +*sc024, LayerOne_j_Shift
+    Hotkey, +*sc025, LayerOne_k_Shift
+    Hotkey, +*sc026, LayerOne_l_Shift
+    Hotkey, +*sc027, LayerOne_sc027_Shift
     Hotkey, *sc028, LayerOne_sc028
     Hotkey, *sc029, LayerOne_sc029
     Hotkey, *sc02C, LayerOne_z

@@ -91,22 +91,22 @@ Send, {right}
 Return
 
 ;左選択(Shift)
-LayerOne_+j:
+LayerOne_j_Shift:
     Send, +{left}
 Return
 
 ;右選択(Shift)
-LayerOne_+k:
+LayerOne_k_Shift:
     Send, +{down}
 Return
 
 ;上選択(Shift)
-LayerOne_+l:
+LayerOne_l_Shift:
     Send, +{up}
 Return
 
 ;下選択(;キー)(Shift)
-LayerOne_+*sc027:
+LayerOne_sc027_Shift:
     Send, +{right}
 Return   
 
@@ -129,12 +129,12 @@ Return
 
 LayerOne_c:
 ;Disordを起動
-    Run, "C:\Users\kazus\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord"
+    Run, "%appdata%\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord"
 Return
 
 LayerOne_v:
 ;VSCodeを起動
-    Run, "C:\Users\kazus\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Visual Studio Code\Visual Studio Code"
+    Run, "%appdata%\Microsoft\Windows\Start Menu\Programs\Visual Studio Code\Visual Studio Code"
 Return
 
 LayerOne_b:
