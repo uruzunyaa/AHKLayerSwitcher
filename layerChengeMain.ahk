@@ -37,6 +37,8 @@ If layerState < 1
     Hotkey, *sc033, LayerOne_sc033
     Hotkey, *sc034, LayerOne_sc034
     Hotkey, *sc035, LayerOne_sc035
+    Hotkey, *sc036, LayerOne_sc036
+    
     layerState = 1
 }
 Else
@@ -74,6 +76,7 @@ Else
     Hotkey, *sc033, Off
     Hotkey, *sc034, Off
     Hotkey, *sc035, Off
+    Hotkey, *sc036, Off
     layerState = 0
 }
 Return

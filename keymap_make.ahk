@@ -76,3 +76,7 @@ Return
 sc035::
 Send, !{F4}
 Return
+
++sc036::
+    Send, !{Tab}
+Return
