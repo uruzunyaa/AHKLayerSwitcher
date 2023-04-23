@@ -2,49 +2,67 @@
 
 LayerOne_q:
 Return
+
 LayerOne_w:
 Return
+
 LayerOne_e:
 Return
+
 LayerOne_r:
 Return
+
 LayerOne_t:
 Return
+
 LayerOne_y:
 Return
+
 LayerOne_u:
 Return
-LayerOne_:
-Send {Volume_Mute}
+
+LayerOne_i:
+    Send {Volume_Mute}
 Return
+
 LayerOne_o:
-Send {Volume_Down}
+    Send {Volume_Down}
 Return
+
 LayerOne_p:
-Send,{Volume_Up 2} 
+    Send,{Volume_Up 2} 
 Return
-LayerOne_*sc01a:
-Send #{Volume_Down}
+
+LayerOne_sc01a:
+    Send #{Volume_Down}
 Return
-LayerOne_*sc01b:
-Send #{Volume_UP}
+
+LayerOne_sc01b:
+    Send #{Volume_UP}
 Return
-; ホイール上回転
-; LayerOne_f::
-; Send, {WheelUp}
-; Return
-; ホイール下回転
-; LayerOne_d::
-; Send, {WheelDown}
-; Return
-; 進むボタン
-; LayerOne_s::
-; Send, {XButton2}
-; Return
-; 戻るボタン
-; LayerOne_a::
-; Send, {XButton1}
-; Return
+
+
+
+;戻るボタン
+LayerOne_a:
+Send, {XButton1}
+Return
+
+;進むボタン
+LayerOne_s:
+Send, {XButton2}
+Return
+
+;ホイール下回転
+LayerOne_d:
+Send, {WheelDown}
+Return
+
+;ホイール上回転
+LayerOne_f:
+Send, {WheelUp}
+Return
+
 LayerOne_g:
 Send, ^c
 Return
@@ -97,24 +115,22 @@ Return
 
 LayerOne_z:
 ;GoogleChromeを起動
-Run,"C:\Program Files\Google\Chrome\Application\chrome.exe"
+    Run,"C:\Program Files\Google\Chrome\Application\chrome.exe"
 Return
 
 LayerOne_x:
 ;Twitterを起動
-Run, "C:\Program Files\Google\Chrome\Application\chrome.exe""https://twitter.com"
+    Run, "C:\Program Files\Google\Chrome\Application\chrome.exe""https://twitter.com"
 Return
 
 LayerOne_c:
 ;Disordを起動
-c::
-Run, "C:\Users\kazus\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord"
+    Run, "C:\Users\kazus\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord"
 Return
 
 LayerOne_v:
 ;VSCodeを起動
-v::
-Run, "C:\Users\kazus\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Visual Studio Code\Visual Studio Code"
+    Run, "C:\Users\kazus\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Visual Studio Code\Visual Studio Code"
 Return
 
 LayerOne_b:
@@ -128,7 +144,7 @@ Return
 LayerOne_sc034:
 Return
 ;画面閉じる（未実装）
-LayerOne_*sc035:
+LayerOne_sc035:
 Send, !{F4}
 Return
 
