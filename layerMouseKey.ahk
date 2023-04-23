@@ -1,5 +1,6 @@
 MOUSE_DELAY = 3
 EDGE_RATE = 0.05
+return
 
 ; --- mouse cursor move ---
 
@@ -19,67 +20,48 @@ cursor_right:
     MouseMove, 20, 0,, Relative
     return
 
-; --- WIP: mouse cursor jump ---
+; --- mouse cursor jump ---
 
-; !1::
-; {
-;     WinGetActiveStats, Title, Width, Height, X, Y
-;     MouseMove, Round(Width*EDGE_RATE), Round(Height*EDGE_RATE), MOUSE_DELAY
-; }
-; Exit, 0
+junp_to_top_left:
+    WinGetActiveStats, Title, Width, Height, X, YMouseMove, Round(Width*EDGE_RATE), Round(Height*EDGE_RATE), MOUSE_DELAY
+    return
 
-; !2::
-; {
-;     WinGetActiveStats, Title, Width, Height, X, Y
-;     MouseMove, Width//2, Round(Height*EDGE_RATE), MOUSE_DELAY
-; }
-; Exit, 0
+junp_to_top_centr:
+    WinGetActiveStats, Title, Width, Height, X, Y    
+    MouseMove, Width//2, Round(Height*EDGE_RATE), MOUSE_DELAY
+    return
 
-; !3::
-; {
-;     WinGetActiveStats, Title, Width, Height, X, Y
-;     MouseMove, Round(Width*(1-EDGE_RATE)), Round(Height*EDGE_RATE), MOUSE_DELAY
-; }
-; Exit, 0
+junp_to_top_right:
+    WinGetActiveStats, Title, Width, Height, X, Y    
+    MouseMove, Round(Width*(1-EDGE_RATE)), Round(Height*EDGE_RATE), MOUSE_DELAY
+    return
 
-; !4::
-; {
-;     WinGetActiveStats, Title, Width, Height, X, Y
-;     MouseMove, Round(Width*EDGE_RATE), Height//2, MOUSE_DELAY
-; }
-; Exit, 0
+junp_to_middle_left:
+    WinGetActiveStats, Title, Width, Height, X, Y    
+    MouseMove, Round(Width*EDGE_RATE), Height//2, MOUSE_DELAY
+    return
 
-; !5::
-; {
-;     WinGetActiveStats, Title, Width, Height, X, Y
-;     MouseMove, Width//2, Height//2, MOUSE_DELAY
-; }
-; Exit, 0
+junp_to_middle_centr:
+    WinGetActiveStats, Title, Width, Height, X, Y    
+    MouseMove, Width//2, Height//2, MOUSE_DELAY
+    return
 
-; !6::
-; {
-;     WinGetActiveStats, Title, Width, Height, X, Y
-;     MouseMove, Round(Width*(1-EDGE_RATE)), Height//2, MOUSE_DELAY
-; }
-; Exit, 0
+junp_to_middle_right:
+    WinGetActiveStats, Title, Width, Height, X, Y    
+    MouseMove, Round(Width*(1-EDGE_RATE)), Height//2, MOUSE_DELAY
+    return
 
-; !7::
-; {
-;     WinGetActiveStats, Title, Width, Height, X, Y
-;     MouseMove, Round(Width*EDGE_RATE), Round(Height*(1-EDGE_RATE)), MOUSE_DELAY
-; }
-; Exit, 0
+junp_to_bottom_left:
+    WinGetActiveStats, Title, Width, Height, X, Y    
+    MouseMove, Round(Width*EDGE_RATE), Round(Height*(1-EDGE_RATE)), MOUSE_DELAY
+    return
 
-; !8::
-; {
-;     WinGetActiveStats, Title, Width, Height, X, Y
-;     MouseMove, Width//2, Round(Height*(1-EDGE_RATE)), MOUSE_DELAY
-; }
-; Exit, 0
+junp_to_bottom_centr:
+    WinGetActiveStats, Title, Width, Height, X, Y    
+    MouseMove, Width//2, Round(Height*(1-EDGE_RATE)), MOUSE_DELAY
+    return
 
-; !9::
-; {
-;     WinGetActiveStats, Title, Width, Height, X, Y
-;     MouseMove, Round(Width*(1-EDGE_RATE)), Round(Height*(1-EDGE_RATE)), MOUSE_DELAY
-;     Exit, 0
-; }
+junp_to_bottom_right:
+    WinGetActiveStats, Title, Width, Height, X, Y    
+    MouseMove, Round(Width*(1-EDGE_RATE)), Round(Height*(1-EDGE_RATE)), MOUSE_DELAY
+    return

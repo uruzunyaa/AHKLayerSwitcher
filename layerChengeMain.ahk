@@ -1,5 +1,5 @@
-#Include layerOne.ahk
 #Include layerMouseKey.ahk
+#Include layerOne.ahk
 Return
 
 layerState := 0
@@ -87,40 +87,75 @@ Return
 
 ; --- mouse cursor layer ---
 
+; cursor move
 Hotkey, i, cursor_up
 Hotkey, j, cursor_left
 Hotkey, k, cursor_down
 Hotkey, l, cursor_right
 
+; WIP: click key
+; Hotkey, u, left_click
+; Hotkey, o, right_click
+
+; jump key
+Hotkey, w, junp_to_top_left
+Hotkey, e, junp_to_top_centr
+Hotkey, r, junp_to_top_right
+Hotkey, s, junp_to_middle_left
+Hotkey, d, junp_to_middle_centr
+Hotkey, f, junp_to_middle_right
+Hotkey, x, junp_to_bottom_left
+Hotkey, c, junp_to_bottom_centr
+Hotkey, v, junp_to_bottom_right
+
 Space::
 {
+    ; cursor move
     Hotkey, i, cursor_up, On
     Hotkey, j, cursor_left, On
     Hotkey, k, cursor_down, On
     Hotkey, l, cursor_right, On
-    
-    ; WIP
-    ; Hotkey, w, junp_to_1, On
-    ; Hotkey, e, junp_to_2, On
-    ; Hotkey, r, junp_to_3, On
-    ; Hotkey, s, junp_to_4, On
-    ; Hotkey, d, junp_to_5, On
-    ; Hotkey, f, junp_to_6, On
-    ; Hotkey, x, junp_to_7, On
-    ; Hotkey, c, junp_to_8, On
-    ; Hotkey, v, junp_to_9, On
+
+    ; WIP: click key
+    ; Hotkey, u, left_click, On
+    ; Hotkey, o, right_click, On
+
+    ; jump key
+    Hotkey, w, junp_to_top_left, On
+    Hotkey, e, junp_to_top_centr, On
+    Hotkey, r, junp_to_top_right, On
+    Hotkey, s, junp_to_middle_left, On
+    Hotkey, d, junp_to_middle_centr, On
+    Hotkey, f, junp_to_middle_right, On
+    Hotkey, x, junp_to_bottom_left, On
+    Hotkey, c, junp_to_bottom_centr, On
+    Hotkey, v, junp_to_bottom_right, On
 
     return
 }
 
 Space Up::
 {
+    ; cursor move
     Hotkey, i, cursor_up, Off
     Hotkey, j, cursor_left, Off
     Hotkey, k, cursor_down, Off
     Hotkey, l, cursor_right, Off
+
+    ; WIP: click key
+    ; Hotkey, u, left_click, Off
+    ; Hotkey, o, right_click, Off
+
+    ; jump key
+    Hotkey, w, junp_to_top_left
+    Hotkey, e, junp_to_top_centr
+    Hotkey, r, junp_to_top_right
+    Hotkey, s, junp_to_middle_left
+    Hotkey, d, junp_to_middle_centr
+    Hotkey, f, junp_to_middle_right
+    Hotkey, x, junp_to_bottom_left
+    Hotkey, c, junp_to_bottom_centr
+    Hotkey, v, junp_to_bottom_right
+
     return
 }
-
-; --- mouse cursor layer ---
-
