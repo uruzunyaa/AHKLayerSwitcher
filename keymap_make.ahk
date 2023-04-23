@@ -1,4 +1,6 @@
 ;GoogleChromeを起動
+user_name := A_UserName
+MsgBox, C:\Users\%user_name%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord
 z::
 Run, "C:\Program Files\Google\Chrome\Application\chrome.exe"
 Return
@@ -69,4 +71,8 @@ Return
 ;下選択(;キー)
 +*sc027::
 Send, +{right}
-Return     
+Return 
+;画面閉じる（未実装）
+sc035::
+Send, !{F4}
+Return

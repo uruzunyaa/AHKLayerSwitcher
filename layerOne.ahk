@@ -90,25 +90,25 @@ LayerOne_sc027:
 Send, {right}
 Return
 
-; ;左選択(Shift)
-; LayerOne_+j::
-; Send, +{left}
-; Return
+;左選択(Shift)
+LayerOne_+j:
+    Send, +{left}
+Return
 
-; ;右選択(Shift)
-; LayerOne_+k::
-; Send, +{down}
-; Return
+;右選択(Shift)
+LayerOne_+k::
+    Send, +{down}
+Return
 
-; ;上選択(Shift)
-; LayerOne_+l::
-; Send, +{up}
-; Return
+;上選択(Shift)
+LayerOne_+l:
+    Send, +{up}
+Return
 
-; ;下選択(;キー)(Shift)
-; LayerOne_+*sc027::
-; Send, +{right}
-; Return   
+;下選択(;キー)(Shift)
+LayerOne_+*sc027:
+    Send, +{right}
+Return   
 
 LayerOne_sc028:
 Return
@@ -147,14 +147,3 @@ Return
 LayerOne_sc035:
 Send, !{F4}
 Return
-
-
-; LayerOne_a:
-; Send ,7
-; Return
-; LayerOne_s:
-; Send ,8
-; Return
-; LayerOne_p:
-; Send ,8
-; Return
