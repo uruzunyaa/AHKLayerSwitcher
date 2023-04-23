@@ -6,25 +6,25 @@ return
 
 cursor_up:
     While (GetKeyState("I")){
-        MouseMove, 0, -20,, Relative
+        MouseMove, 0, -30,, Relative
     }
     return
 
 cursor_left:    
     While (GetKeyState("J")){
-        MouseMove, -20, 0,, Relative
+        MouseMove, -30, 0,, Relative
     }
     return
 
 cursor_down:
     While (GetKeyState("K")){
-        MouseMove, 0, 20,, Relative
+        MouseMove, 0, 30,, Relative
     }
     return
 
     cursor_right:
     While (GetKeyState("L")){
-        MouseMove, 20, 0,, Relative
+        MouseMove, 30, 0,, Relative
     }
     return
 
