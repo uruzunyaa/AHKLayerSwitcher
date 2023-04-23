@@ -1,5 +1,7 @@
+#Include layerMouseKey.ahk
 #Include layerOne.ahk
 Return
+
 layerState := 0
 RAlt::
 If layerState < 1
@@ -67,6 +69,7 @@ Else
     Hotkey, *sc026, Off
     Hotkey, *sc027, Off
     Hotkey, *sc028, Off
+    Hotkey, *sc029, Off
     Hotkey, *sc02C, Off
     Hotkey, *sc02D, Off
     Hotkey, *sc02E, Off
@@ -81,3 +84,79 @@ Else
     layerState = 0
 }
 Return
+
+
+; --- mouse cursor layer ---
+
+; cursor move
+Hotkey, i, cursor_up
+Hotkey, j, cursor_left
+Hotkey, k, cursor_down
+Hotkey, l, cursor_right
+
+; click
+Hotkey, u, left_click
+Hotkey, o, right_click
+
+; cursor jump
+Hotkey, w, junp_to_top_left
+Hotkey, e, junp_to_top_centr
+Hotkey, r, junp_to_top_right
+Hotkey, s, junp_to_middle_left
+Hotkey, d, junp_to_middle_centr
+Hotkey, f, junp_to_middle_right
+Hotkey, x, junp_to_bottom_left
+Hotkey, c, junp_to_bottom_centr
+Hotkey, v, junp_to_bottom_right
+
+Space::
+{
+    ; cursor move
+    Hotkey, i, cursor_up, On
+    Hotkey, j, cursor_left, On
+    Hotkey, k, cursor_down, On
+    Hotkey, l, cursor_right, On
+
+    ; click
+    Hotkey, u, left_click, On
+    Hotkey, o, right_click, On
+
+    ; cursor jump
+    Hotkey, w, junp_to_top_left, On
+    Hotkey, e, junp_to_top_centr, On
+    Hotkey, r, junp_to_top_right, On
+    Hotkey, s, junp_to_middle_left, On
+    Hotkey, d, junp_to_middle_centr, On
+    Hotkey, f, junp_to_middle_right, On
+    Hotkey, x, junp_to_bottom_left, On
+    Hotkey, c, junp_to_bottom_centr, On
+    Hotkey, v, junp_to_bottom_right, On
+
+    return
+}
+
+Space Up::
+{
+    ; cursor move
+    Hotkey, i, cursor_up, Off
+    Hotkey, j, cursor_left, Off
+    Hotkey, k, cursor_down, Off
+    Hotkey, l, cursor_right, Off
+
+    ; click
+    Hotkey, u, left_click, Off
+    Hotkey, o, right_click, Off
+
+    ; cursor jump
+    Hotkey, w, junp_to_top_left
+    Hotkey, e, junp_to_top_centr
+    Hotkey, r, junp_to_top_right
+    Hotkey, s, junp_to_middle_left
+    Hotkey, d, junp_to_middle_centr
+    Hotkey, f, junp_to_middle_right
+    Hotkey, x, junp_to_bottom_left
+    Hotkey, c, junp_to_bottom_centr
+    Hotkey, v, junp_to_bottom_right
+
+    return
+}
