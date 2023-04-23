@@ -1,6 +1,7 @@
 ;GoogleChromeを起動
 user_name := A_UserName
-MsgBox, C:\Users\%user_name%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord
+;Run, "C:\Users\"+%user_name%"\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord
+
 z::
 Run, "C:\Program Files\Google\Chrome\Application\chrome.exe"
 Return
@@ -10,11 +11,11 @@ Run, "C:\Program Files\Google\Chrome\Application\chrome.exe""https://twitter.com
 Return
 ;Disordを起動
 c::
-Run, "C:\Users\kazus\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord"
+Run, "%appdata%\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord"
 Return
 ;VSCodeを起動
 v::
-Run, "C:\Users\kazus\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Visual Studio Code\Visual Studio Code"
+Run, "%appdata%\Microsoft\Windows\Start Menu\Programs\Visual Studio Code\Visual Studio Code"
 Return
 ;左へ移動
 j::
