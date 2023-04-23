@@ -34,7 +34,7 @@ LayerOne_p:
 Return
 
 LayerOne_sc01a:
-    Send #{Volume_Down}
+    Send #{VOLUME_DOWN}
 Return
 
 LayerOne_sc01b:
@@ -111,7 +111,11 @@ LayerOne_+*sc027:
 Return   
 
 LayerOne_sc028:
-    Send, {PrintScreen}
+    Send, #{PrintScreen}
+Return
+
+LayerOne_sc029:
+    Send, #{PrintScreen}
 Return
 
 LayerOne_z:
