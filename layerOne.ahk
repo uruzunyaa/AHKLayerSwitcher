@@ -29,22 +29,22 @@ Return
 LayerOne_*sc01b:
 Send #{Volume_UP}
 Return
-;ホイール上回転
-LayerOne_f::
-Send, {WheelUp}
-Return
-;ホイール下回転
-LayerOne_d::
-Send, {WheelDown}
-Return
-;進むボタン
-LayerOne_s::
-Send, {XButton2}
-Return
-;戻るボタン
-LayerOne_a::
-Send, {XButton1}
-Return
+; ホイール上回転
+; LayerOne_f::
+; Send, {WheelUp}
+; Return
+; ホイール下回転
+; LayerOne_d::
+; Send, {WheelDown}
+; Return
+; 進むボタン
+; LayerOne_s::
+; Send, {XButton2}
+; Return
+; 戻るボタン
+; LayerOne_a::
+; Send, {XButton1}
+; Return
 LayerOne_g:
 Send, ^c
 Return
@@ -72,25 +72,25 @@ LayerOne_sc027:
 Send, {right}
 Return
 
-;左選択(Shift)
-LayerOne_+j::
-Send, +{left}
-Return
+; ;左選択(Shift)
+; LayerOne_+j::
+; Send, +{left}
+; Return
 
-;右選択(Shift)
-LayerOne_+k::
-Send, +{down}
-Return
+; ;右選択(Shift)
+; LayerOne_+k::
+; Send, +{down}
+; Return
 
-;上選択(Shift)
-LayerOne_+l::
-Send, +{up}
-Return
+; ;上選択(Shift)
+; LayerOne_+l::
+; Send, +{up}
+; Return
 
-;下選択(;キー)(Shift)
-LayerOne_+*sc027::
-Send, +{right}
-Return   
+; ;下選択(;キー)(Shift)
+; LayerOne_+*sc027::
+; Send, +{right}
+; Return   
 
 LayerOne_sc028:
 Return
