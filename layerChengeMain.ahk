@@ -17,7 +17,6 @@ If layerState < 1
     Hotkey, *sc018, LayerOne_o
     Hotkey, *sc019, LayerOne_p
     Hotkey, *sc01a, LayerOne_sc01a
-    Hotkey, *sc01b, LayerOne_sc01b
     Hotkey, *sc01e, LayerOne_a
     Hotkey, *sc01f, LayerOne_s
     Hotkey, *sc020, LayerOne_d
@@ -33,7 +32,7 @@ If layerState < 1
     Hotkey, +*sc026, LayerOne_l_Shift
     Hotkey, +*sc027, LayerOne_sc027_Shift
     Hotkey, *sc028, LayerOne_sc028
-    Hotkey, *sc029, LayerOne_sc029
+    Hotkey, *sc02B, LayerOne_sc02B
     Hotkey, *sc02C, LayerOne_z
     Hotkey, *sc02D, LayerOne_x
     Hotkey, *sc02E, LayerOne_c
@@ -61,7 +60,6 @@ Else
     Hotkey, *sc018, Off
     Hotkey, *sc019, Off
     Hotkey, *sc01a, Off
-    Hotkey, *sc01b, Off
     Hotkey, *sc01e, Off
     Hotkey, *sc01f, Off
     Hotkey, *sc020, Off
@@ -73,7 +71,7 @@ Else
     Hotkey, *sc026, Off
     Hotkey, *sc027, Off
     Hotkey, *sc028, Off
-    Hotkey, *sc029, Off
+    Hotkey, *sc02B, Off
     Hotkey, *sc02C, Off
     Hotkey, *sc02D, Off
     Hotkey, *sc02E, Off
