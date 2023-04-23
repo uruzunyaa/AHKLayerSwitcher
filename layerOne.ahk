@@ -115,7 +115,7 @@ LayerOne_sc028:
 Return
 
 LayerOne_sc029:
-    Send, #+{S}
+    Send, {RWin Down}{RShift Down}{s}{RShift Up}{RWin Up} 
 Return
 
 LayerOne_z:
