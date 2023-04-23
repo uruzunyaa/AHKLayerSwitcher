@@ -41,9 +41,39 @@ If layerState < 1
 }
 Else
 {
+    Hotkey, *sc010, Off
+    Hotkey, *sc011, Off
+    Hotkey, *sc012, Off
+    Hotkey, *sc013, Off
+    Hotkey, *sc014, Off
+    Hotkey, *sc015, Off
+    Hotkey, *sc016, Off
+    Hotkey, *sc017, Off
+    Hotkey, *sc018, Off
+    Hotkey, *sc019, Off
+    Hotkey, *sc01a, Off
+    Hotkey, *sc01b, Off
     Hotkey, *sc01e, Off
     Hotkey, *sc01f, Off
-    Hotkey, *sc019, Off
+    Hotkey, *sc020, Off
+    Hotkey, *sc021, Off
+    Hotkey, *sc022, Off
+    Hotkey, *sc023, Off
+    Hotkey, *sc024, Off
+    Hotkey, *sc025, Off
+    Hotkey, *sc026, Off
+    Hotkey, *sc027, Off
+    Hotkey, *sc028, Off
+    Hotkey, *sc02C, Off
+    Hotkey, *sc02D, Off
+    Hotkey, *sc02E, Off
+    Hotkey, *sc02F, Off
+    Hotkey, *sc030, Off
+    Hotkey, *sc031, Off
+    Hotkey, *sc032, Off
+    Hotkey, *sc033, Off
+    Hotkey, *sc034, Off
+    Hotkey, *sc035, Off
     layerState = 0
 }
 Return
