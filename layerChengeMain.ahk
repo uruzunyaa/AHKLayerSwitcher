@@ -31,7 +31,7 @@ Hotkey, +*sc025, LayerOne_k_Shift
 Hotkey, +*sc026, LayerOne_l_Shift
 Hotkey, +*sc027, LayerOne_sc027_Shift
 Hotkey, *sc028, LayerOne_sc028
-Hotkey, *sc029, LayerOne_sc029
+Hotkey, *sc02B, LayerOne_sc02B
 Hotkey, *sc02C, LayerOne_z
 Hotkey, *sc02D, LayerOne_x
 Hotkey, *sc02E, LayerOne_c
@@ -74,7 +74,7 @@ RAlt::
         Hotkey, +*sc026, LayerOne_l_Shift, On
         Hotkey, +*sc027, LayerOne_sc027_Shift, On
         Hotkey, *sc028, LayerOne_sc028, On
-        Hotkey, *sc029, LayerOne_sc029, On
+        Hotkey, *sc02B, LayerOne_sc02B, On
         Hotkey, *sc02C, LayerOne_z, On
         Hotkey, *sc02D, LayerOne_x, On
         Hotkey, *sc02E, LayerOne_c, On
@@ -114,7 +114,7 @@ RAlt::
         Hotkey, *sc026, Off
         Hotkey, *sc027, Off
         Hotkey, *sc028, Off
-        Hotkey, *sc029, Off
+        Hotkey, *sc02B, Off
         Hotkey, *sc02C, Off
         Hotkey, *sc02D, Off
         Hotkey, *sc02E, Off
