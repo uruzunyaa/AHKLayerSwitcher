@@ -1,5 +1,7 @@
 #Include layerOne.ahk
+#Include layerMouseKey.ahk
 Return
+
 layerState := 0
 RAlt::
 If layerState < 1
@@ -77,3 +79,44 @@ Else
     layerState = 0
 }
 Return
+
+
+; --- mouse cursor layer ---
+
+Hotkey, i, cursor_up
+Hotkey, j, cursor_left
+Hotkey, k, cursor_down
+Hotkey, l, cursor_right
+
+Space::
+{
+    Hotkey, i, cursor_up, On
+    Hotkey, j, cursor_left, On
+    Hotkey, k, cursor_down, On
+    Hotkey, l, cursor_right, On
+    
+    ; WIP
+    ; Hotkey, w, junp_to_1, On
+    ; Hotkey, e, junp_to_2, On
+    ; Hotkey, r, junp_to_3, On
+    ; Hotkey, s, junp_to_4, On
+    ; Hotkey, d, junp_to_5, On
+    ; Hotkey, f, junp_to_6, On
+    ; Hotkey, x, junp_to_7, On
+    ; Hotkey, c, junp_to_8, On
+    ; Hotkey, v, junp_to_9, On
+
+    return
+}
+
+Space Up::
+{
+    Hotkey, i, cursor_up, Off
+    Hotkey, j, cursor_left, Off
+    Hotkey, k, cursor_down, Off
+    Hotkey, l, cursor_right, Off
+    return
+}
+
+; --- mouse cursor layer ---
+
