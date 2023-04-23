@@ -93,11 +93,11 @@ Hotkey, j, cursor_left
 Hotkey, k, cursor_down
 Hotkey, l, cursor_right
 
-; WIP: click key
-; Hotkey, u, left_click
-; Hotkey, o, right_click
+; click
+Hotkey, u, left_click
+Hotkey, o, right_click
 
-; jump key
+; cursor jump
 Hotkey, w, junp_to_top_left
 Hotkey, e, junp_to_top_centr
 Hotkey, r, junp_to_top_right
@@ -116,11 +116,11 @@ Space::
     Hotkey, k, cursor_down, On
     Hotkey, l, cursor_right, On
 
-    ; WIP: click key
-    ; Hotkey, u, left_click, On
-    ; Hotkey, o, right_click, On
+    ; click
+    Hotkey, u, left_click, On
+    Hotkey, o, right_click, On
 
-    ; jump key
+    ; cursor jump
     Hotkey, w, junp_to_top_left, On
     Hotkey, e, junp_to_top_centr, On
     Hotkey, r, junp_to_top_right, On
@@ -142,11 +142,11 @@ Space Up::
     Hotkey, k, cursor_down, Off
     Hotkey, l, cursor_right, Off
 
-    ; WIP: click key
-    ; Hotkey, u, left_click, Off
-    ; Hotkey, o, right_click, Off
+    ; click
+    Hotkey, u, left_click, Off
+    Hotkey, o, right_click, Off
 
-    ; jump key
+    ; cursor jump
     Hotkey, w, junp_to_top_left
     Hotkey, e, junp_to_top_centr
     Hotkey, r, junp_to_top_right

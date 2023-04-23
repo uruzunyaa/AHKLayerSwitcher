@@ -2,7 +2,7 @@ MOUSE_DELAY = 3
 EDGE_RATE = 0.05
 return
 
-; --- mouse cursor move ---
+; --- cursor move ---
 
 cursor_up:
     MouseMove, 0, -20,, Relative
@@ -20,7 +20,17 @@ cursor_right:
     MouseMove, 20, 0,, Relative
     return
 
-; --- mouse cursor jump ---
+; --- click ---
+
+left_click:
+    MouseClick, Left
+    return
+
+right_click:
+    MouseClick, Right
+    return
+
+; --- cursor jump ---
 
 junp_to_top_left:
     WinGetActiveStats, Title, Width, Height, X, Y
