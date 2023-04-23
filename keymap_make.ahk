@@ -1,4 +1,7 @@
 ;GoogleChromeを起動
+user_name := A_UserName
+;Run, "C:\Users\"+%user_name%"\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord
+
 z::
 Run, "C:\Program Files\Google\Chrome\Application\chrome.exe"
 Return
@@ -8,11 +11,11 @@ Run, "C:\Program Files\Google\Chrome\Application\chrome.exe""https://twitter.com
 Return
 ;Disordを起動
 c::
-Run, "C:\Users\kazus\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord"
+Run, "%appdata%\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord"
 Return
 ;VSCodeを起動
 v::
-Run, "C:\Users\kazus\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Visual Studio Code\Visual Studio Code"
+Run, "%appdata%\Microsoft\Windows\Start Menu\Programs\Visual Studio Code\Visual Studio Code"
 Return
 ;左へ移動
 j::
@@ -69,4 +72,8 @@ Return
 ;下選択(;キー)
 +*sc027::
 Send, +{right}
-Return     
+Return 
+;画面閉じる（未実装）
+sc035::
+Send, !{F4}
+Return
