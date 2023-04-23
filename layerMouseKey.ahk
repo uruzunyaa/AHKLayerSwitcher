@@ -5,19 +5,27 @@ return
 ; --- cursor move ---
 
 cursor_up:
-    MouseMove, 0, -20,, Relative
+    While (GetKeyState("I")){
+        MouseMove, 0, -20,, Relative
+    }
     return
 
-cursor_left:
-    MouseMove, -20, 0,, Relative
+cursor_left:    
+    While (GetKeyState("J")){
+        MouseMove, -20, 0,, Relative
+    }
     return
 
 cursor_down:
-    MouseMove, 0, 20,, Relative
+    While (GetKeyState("K")){
+        MouseMove, 0, 20,, Relative
+    }
     return
 
-cursor_right:
-    MouseMove, 20, 0,, Relative
+    cursor_right:
+    While (GetKeyState("L")){
+        MouseMove, 20, 0,, Relative
+    }
     return
 
 ; --- click ---
