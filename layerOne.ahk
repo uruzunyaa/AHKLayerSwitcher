@@ -115,8 +115,7 @@ LayerOne_sc028:
 Return
 
 LayerOne_sc029:
-    Send, {RWin Down}{RShift Down}{s}{RShift Up}{RWin Up} 
-Return
+Send, !+{s}
 
 LayerOne_z:
 ;GoogleChromeを起動
