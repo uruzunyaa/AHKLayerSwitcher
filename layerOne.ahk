@@ -139,8 +139,10 @@ LayerOne_v:
 Return
 
 LayerOne_b:
+    Run, "%windir%\system32\notepad.exe"
 Return
 LayerOne_n:
+    Run, "C:\workspace\tools\pomodoro\Smart PomoTimer.exe"
 Return
 LayerOne_m:
 Return
