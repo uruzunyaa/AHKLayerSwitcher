@@ -31,7 +31,7 @@ LayerOne_o:
 Return
 
 LayerOne_p:
-    Send,{Volume_Up 2} 
+    Send,{Volume_Up 2}
 Return
 
 LayerOne_sc01a:
@@ -109,7 +109,7 @@ Return
 ;下選択(;キー)(Shift)
 LayerOne_sc027_Shift:
     Send, +{right}
-Return   
+Return
 
 LayerOne_sc028:
     Send, #{PrintScreen}
@@ -321,4 +321,3 @@ Return
 LayerOne_sc036:
     ;Send, !{Tab}
 Return
->>>>>>> bc8d391adac77de9d93c02f695ff77ec3020c4b9:src/layerOne.ahk
