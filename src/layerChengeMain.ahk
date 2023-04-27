@@ -153,6 +153,8 @@ Hotkey, x, junp_to_bottom_left
 Hotkey, c, junp_to_bottom_centr
 Hotkey, v, junp_to_bottom_right
 
+cursor_key_pressed = 0
+
 Space::
     ; cursor move
     Hotkey, i, cursor_up, On
@@ -197,5 +199,11 @@ Space Up::
     Hotkey, x, junp_to_bottom_left, Off
     Hotkey, c, junp_to_bottom_centr, Off
     Hotkey, v, junp_to_bottom_right, Off
-return
 
+    If (!mouse_key_pressed)
+    {
+        Send, {Space}
+    }
+
+    mouse_key_pressed = 0
+return
