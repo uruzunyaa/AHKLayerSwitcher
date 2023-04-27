@@ -1,5 +1,6 @@
 {
   "recommendations": [
     "cweijan.vscode-autohotkey-plus",
+    "EditorConfig.EditorConfig",
   ]
 }
