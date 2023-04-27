@@ -1,0 +1,7 @@
+{
+  "vscode-ahk-plus.executePath": "C:\\Program Files\\AutoHotkey\\AutoHotkeyU32.exe",
+  "vscode-ahk-plus.compilePath": "C:\\Program Files\\AutoHotkey\\Ahk2Exe.exe",
+  "[ahk]": {
+    "editor.defaultFormatter": "cweijan.vscode-autohotkey-plus"
+  },
+}
